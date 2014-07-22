@@ -56,4 +56,9 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# OSX
 .DS_STORE
+
+# Emacs
+[#]*[#]
+*~
