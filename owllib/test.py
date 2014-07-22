@@ -3,7 +3,7 @@ __author__ = 'joshhanna'
 from owllib.ontology import Ontology
 from rdflib import URIRef
 
-#TODO: convert to actual tests
+#TODO: put timing statistics to see how long it takes to parse each file
 
 ont = Ontology()
 print("loading bfo")
