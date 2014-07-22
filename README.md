@@ -8,6 +8,10 @@ OWL API for python, built using rdflib
 owllib is on PYPI, so use any of the normal mechanisms to install from there:
 
     pip install owllib
+
+#Testing
+    python testRunner.py
+
     
 #Contributing
 
