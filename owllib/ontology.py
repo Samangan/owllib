@@ -166,6 +166,8 @@ class Ontology:
 
         self.sync_from_graph()
 
+
+    # TODO: Probably want to put these sorts of functions somewhere else.
     def getEntityFromURI(self, uri): 
         """
         returns the entity in self.entites that has the inputted uri
