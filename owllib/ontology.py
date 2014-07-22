@@ -166,6 +166,17 @@ class Ontology:
 
         self.sync_from_graph()
 
+    def getEntityFromURI(self, uri): 
+        """
+        returns the entity in self.entites that has the inputted uri
+        :param uri:
+        :return entity:
+        """
+        for e in self.entities:
+            if e.uri.__str__() == uri:
+                return e
+        return None
+
     def _parse(self, source=None, publicID=None, format=None,
                location=None, file=None, data=None, **args):
         """
