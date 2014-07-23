@@ -17,9 +17,9 @@ class TestEntityFunctions(unittest.TestCase):
         
         # Get a valid Individual to test against
         # TODO: cannot get an individual via uri?
-        #americaIndividual = ontology.getEntityFromURI('http://www.co-ode.org/ontologies/pizza/pizza.owl#America')
-        #print('Found '+ americaIndividual.uri.__str__())
-        #cls.validIndiv = americaIndividual
+        # americaIndividual = ontology.getEntityFromURI('http://www.co-ode.org/ontologies/pizza/pizza.owl#America')
+        # print('Found '+ americaIndividual.uri.__str__())
+        # cls.validIndiv = americaIndividual
                 
         # Get a valid Property to test against
         hasBase = ontology.getEntityFromURI('http://www.co-ode.org/ontologies/pizza/pizza.owl#hasBase')

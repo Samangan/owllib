@@ -175,7 +175,7 @@ class Ontology:
         :return entity:
         """
         for e in self.entities:
-            if e.uri.__str__() == uri:
+            if e.is_named() and e.uri.__str__() == uri:
                 return e
         return None
 
